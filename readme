@@ -4,6 +4,5 @@ The program allows the user to add roles to the database. Roles can have a paren
 The TreeView widget displays the role hierarchy you create. Clicking on a tree item 
 displays the role in a properties view which can be edited.
 
-There is a bug, however, in that saving changes to the role in the properties view does
-not work at this time.
+
 
