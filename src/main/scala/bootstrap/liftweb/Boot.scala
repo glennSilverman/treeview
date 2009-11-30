@@ -58,10 +58,6 @@ Props.get("db.user"), Props.get("db.password")))
 
     LiftRules.loggedInTest = Full(() => User.loggedIn_?)
     
-    LiftRules.dispatch.append {
-    	case Req("api" :: "role" :: id :: Nil, _, _) => ()=>Role.editMe(id)
-    }
-    
     LiftRules.useXhtmlMimeType = false 
     
     TreeView.init 
